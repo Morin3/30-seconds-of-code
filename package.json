@@ -7,8 +7,8 @@
   "author": "chalarangelo",
   "type": "module",
   "devDependencies": {
-    "astro": "^4.0.0",
-    "eslint": "^8.50.0",
+    "astro": "^5.13.2",
+    "eslint": "^9.1.0",
     "eslint-config-prettier": "^9.0.0",
     "front-matter": "^4.0.2",
     "fs-extra": "^11.1.1",
@@ -17,7 +17,7 @@
     "js-yaml": "^4.1.0",
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0",
-    "prismjs": "^1.29.0",
+    "prismjs": "^1.30.0",
     "rehype-stringify": "^10.0.0",
     "remark-gfm": "^4.0.0",
     "remark-parse": "^11.0.0",
@@ -28,7 +28,7 @@
     "unified": "^11.0.4",
     "unist-util-visit": "^5.0.0",
     "unist-util-visit-parents": "^6.0.1",
-    "vitest": "^2.0.4"
+    "vitest": "^2.1.9"
   },
   "imports": {
     "#parsley": ["./parsley/parsley.js"],
