@@ -61,11 +61,11 @@ group :development do
   gem 'rspec-rails'
 
   # Linting
-  gem 'rubocop'
-  gem 'rubocop-performance'
-  gem 'rubocop-rails'
-  gem 'rubocop-rake'
-  gem 'rubocop-rspec'
+  gem 'rubocop', '>= 1.66.0'
+  gem 'rubocop-performance', '>= 1.22.0'
+  gem 'rubocop-rails', '>= 2.26.0'
+  gem 'rubocop-rake', '>= 0.7.0'
+  gem 'rubocop-rspec', '>= 3.0.4'
 end
 
 group :test do
