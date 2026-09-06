@@ -25,4 +25,4 @@ jobs:
       if: steps.filter.outputs.web == 'true'
       run: |
         chmod +x ./bin/deploy
-        ./bin/deploy production
+        ./bin/deploy production 
