@@ -14,4 +14,4 @@ jobs:
         DEPLOY_TRIGGER: ${{ github.event_name }}
       run: |
         chmod +x ./bin/deploy
-        ./bin/deploy production
+        ./bin/deploy production 
